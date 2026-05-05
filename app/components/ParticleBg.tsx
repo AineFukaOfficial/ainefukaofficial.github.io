@@ -15,6 +15,12 @@ interface Particle {
   delay: number;
 }
 
+// Deterministic pseudo-random based on index (avoids SSR hydration mismatch)
+function seededRandom(i: number, seed: number): number {
+  const x = Math.sin(i * 127.1 + seed * 311.7) * 10000;
+  return x - Math.floor(x);
+}
+
 export default function ParticleBg() {
   const containerRef = useRef<HTMLDivElement>(null);
   const particlesRef = useRef<Particle[]>([]);
@@ -89,7 +95,7 @@ export default function ParticleBg() {
           key={i}
           className="particle absolute pointer-events-none select-none"
           style={{
-            fontSize: `${12 + Math.random() * 24}px`,
+            fontSize: `${12 + seededRandom(i, 1) * 24}px`,
             color: i % 3 === 0 ? "#E8A8B8" : i % 3 === 1 ? "#A8C4E8" : "#B8A8E8",
             transition: "opacity 0.3s",
           }}

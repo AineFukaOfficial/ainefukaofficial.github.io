@@ -27,8 +27,8 @@ export default function HomePage() {
       </section>
 
       {/* Voice Preview */}
-      <section className="py-20 md:py-28 px-6 md:px-12 relative overflow-hidden bg-gradient-to-r from-primary-pink/5 via-primary-blue/5 to-primary-purple/5">
-        <div className="max-w-6xl mx-auto text-center">
+      <section className="py-20 md:py-28 relative overflow-hidden bg-gradient-to-r from-primary-pink/5 via-primary-blue/5 to-primary-purple/5">
+        <div className="max-w-6xl mx-auto px-6 md:px-12 text-center">
           <FadeIn direction="up">
             <h2 className="section-title mb-8">声库信息</h2>
           </FadeIn>
