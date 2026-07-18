@@ -2,3 +2,4 @@ node_modules
 .next/
 out/
 .omc
+next-env.d.ts

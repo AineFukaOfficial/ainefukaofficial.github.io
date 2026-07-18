@@ -12,7 +12,7 @@ const galleryItems = [
     description: "2025.12.23 首次配布",
   },
   {
-    src: "/Kei.PNG",
+    src: "/Kei.webp",
     alt: "KEI仿画风立绘",
     title: "KEI 仿画风",
     description: "莱星 绘制",
