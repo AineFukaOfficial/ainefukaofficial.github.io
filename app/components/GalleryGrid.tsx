@@ -1,12 +1,12 @@
 const galleryItems = [
   {
-    src: "/日文.PNG",
+    src: "/日文.webp",
     alt: "日文声库立绘",
     title: "日文声库",
     description: "2026.03.21 公开",
   },
   {
-    src: "/中文.PNG",
+    src: "/中文.webp",
     alt: "中文声库立绘",
     title: "中文声库",
     description: "2025.12.23 首次配布",
@@ -27,7 +27,7 @@ export default function GalleryGrid() {
           key={item.src}
           className="sheet overflow-hidden transition-transform duration-200 hover:-translate-y-1"
         >
-          <div className="flex aspect-[3/4] items-center justify-center bg-paper">
+          <div className="flex aspect-3/4 items-center justify-center bg-paper">
             <img src={item.src} alt={item.alt} className="max-h-full max-w-full object-contain" />
           </div>
           <figcaption className="border-t border-line/80 px-4 py-3">

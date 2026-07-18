@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="page-shell box-border grid h-[100dvh] grid-rows-[minmax(0,1fr)_auto] items-center gap-3 pb-5 pt-16 md:grid-cols-[1fr_1fr] md:grid-rows-1 md:gap-8 md:pb-6 md:pt-16">
+    <section className="page-shell box-border grid h-dvh grid-rows-[minmax(0,1fr)_auto] items-center gap-3 pb-5 pt-16 md:grid-cols-[1fr_1fr] md:grid-rows-1 md:gap-8 md:pb-6 md:pt-16">
       <div className="order-2 min-w-0 md:order-1">
         <div className="mb-3 flex flex-wrap gap-2">
           <span className="sticker sticker-pink">無料配布</span>
@@ -53,7 +53,7 @@ export default function HeroSection() {
 
       <div className="order-1 flex min-h-0 min-w-0 items-center justify-center md:order-2 md:h-full">
         <img
-          src="/中文.PNG"
+          src="/中文.webp"
           alt="爱音芙歌中文立绘"
           className="max-h-[36dvh] w-auto max-w-full object-contain md:max-h-[min(78dvh,680px)]"
         />
