@@ -2,5 +2,5 @@
 :HL["https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&family=Zen+Maru+Gothic:wght@500;700;900&display=swap","style"]
 :HL["/中文.webp","image"]
 :HL["/日文.webp","image"]
-:HL["/Kei.PNG","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"zf8ceP4A2tHl4jbvXKACY"}
+:HL["/Kei.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"53oKoAlNp16MeyAv9pa9I"}
