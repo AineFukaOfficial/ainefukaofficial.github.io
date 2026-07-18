@@ -1,92 +1,44 @@
-import FadeIn from "../components/FadeIn";
 import VoiceSection from "../components/VoiceSection";
 
 export default function VoicePage() {
   return (
-    <div className="pt-28">
+    <div>
       <VoiceSection />
 
-      {/* Additional Voice Details */}
-      <section className="py-20 md:py-28 px-6 md:px-12 max-w-4xl mx-auto">
-        <FadeIn direction="up">
-          <h2 className="section-title mb-16">声库详情</h2>
-        </FadeIn>
-
-        <div className="space-y-8">
-          <FadeIn direction="up" delay={0.1}>
-            <div className="glass-card p-8">
-              <h3 className="text-xl font-bold mb-4 text-primary-pink flex items-center gap-3">
-                <span className="text-2xl">🇨🇳</span> 中文声库
-              </h3>
-              <ul className="space-y-3 text-text-light">
-                <li className="flex gap-3">
-                  <span className="text-primary-pink">•</span>
-                  <span><strong>类型：</strong>扩张整音</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-primary-pink">•</span>
-                  <span><strong>配布日期：</strong>2025年12月23日</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-primary-pink">•</span>
-                  <span>采用扩张整音录制，保证中文发音准确自然</span>
-                </li>
-              </ul>
-            </div>
-          </FadeIn>
-
-          <FadeIn direction="up" delay={0.2}>
-            <div className="glass-card p-8">
-              <h3 className="text-xl font-bold mb-4 text-primary-blue flex items-center gap-3">
-                <span className="text-2xl">🇯🇵</span> 日文声库
-              </h3>
-              <ul className="space-y-3 text-text-light">
-                <li className="flex gap-3">
-                  <span className="text-primary-blue">•</span>
-                  <span><strong>类型：</strong>单独音</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-primary-blue">•</span>
-                  <span><strong>配布日期：</strong>2026年3月21日</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-primary-blue">•</span>
-                  <span>单独音形式，适合日系风格音乐作品</span>
-                </li>
-              </ul>
-            </div>
-          </FadeIn>
-
-          <FadeIn direction="up" delay={0.3}>
-            <div className="glass-card p-8">
-              <h3 className="text-xl font-bold mb-4 text-primary-purple flex items-center gap-3">
-                <span className="text-2xl">🎤</span> 袅袅声库
-              </h3>
-              <ul className="space-y-3 text-text-light">
-                <li className="flex gap-3">
-                  <span className="text-primary-purple">•</span>
-                  <span><strong>制作：</strong>Qiyiyin</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-primary-purple">•</span>
-                  <span>适用于袅袅虚拟歌手软件</span>
-                </li>
-              </ul>
-            </div>
-          </FadeIn>
+      <section className="page-shell border-t border-line/70 py-12 md:py-16">
+        <p className="section-kicker">♪ Notes</p>
+        <h2 className="section-heading">使用说明</h2>
+        <div className="mt-7 grid gap-3 md:grid-cols-3">
+          <article className="sheet p-5">
+            <h3 className="font-display text-lg font-extrabold">中文声库</h3>
+            <p className="mt-2 leading-7 text-muted">
+              扩张整音录制，优先保证中文咬字完整度与自然感。
+            </p>
+          </article>
+          <article className="sheet p-5">
+            <h3 className="font-display text-lg font-extrabold">日文声库</h3>
+            <p className="mt-2 leading-7 text-muted">
+              单独音形式，便于日系曲风的音节切分与调声。
+            </p>
+          </article>
+          <article className="sheet p-5">
+            <h3 className="font-display text-lg font-extrabold">袅袅声库</h3>
+            <p className="mt-2 leading-7 text-muted">
+              由 Qiyiyin 制作，适配袅袅虚拟歌手软件。
+            </p>
+          </article>
         </div>
 
-        <FadeIn direction="up" delay={0.4}>
-          <div className="text-center mt-12">
-            <a
-              href="https://bowlroll.net/file/346505"
-              target="_blank"
-              className="btn-primary inline-flex items-center gap-2 px-10 py-4 rounded-full text-base"
-            >
-              <span className="text-lg">💾</span> 下载声库
-            </a>
-          </div>
-        </FadeIn>
+        <div className="mt-8">
+          <a
+            href="https://bowlroll.net/file/346505"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-solid"
+          >
+            前往下载
+          </a>
+        </div>
       </section>
     </div>
   );

@@ -1,82 +1,59 @@
+import Link from "next/link";
 import HeroSection from "./components/HeroSection";
 import ProfileCards from "./components/ProfileCards";
-import FadeIn from "./components/FadeIn";
+import GalleryGrid from "./components/GalleryGrid";
 
 export default function HomePage() {
   return (
     <>
-      {/* Hero */}
       <HeroSection />
 
-      {/* Profile Overview */}
-      <section className="py-20 md:py-28 px-6 md:px-12 max-w-6xl mx-auto">
-        <FadeIn direction="up">
-          <h2 className="section-title mb-16">角色档案</h2>
-        </FadeIn>
+      <section className="page-shell border-t border-line/70 py-12 md:py-16">
+        <div className="mb-7 flex items-end justify-between gap-4">
+          <div>
+            <p className="section-kicker">♡ Profile</p>
+            <h2 className="section-heading">角色档案</h2>
+          </div>
+          <Link href="/profile" className="hidden text-sm font-bold text-candy-deep md:inline">
+            完整设定 →
+          </Link>
+        </div>
         <ProfileCards compact />
-        <FadeIn direction="up" delay={0.3}>
-          <div className="text-center mt-12">
-            <a
-              href="/profile"
-              className="btn-secondary inline-flex items-center gap-2 px-8 py-4 rounded-full text-base"
-            >
-              查看完整档案 <span className="text-lg">→</span>
-            </a>
-          </div>
-        </FadeIn>
+        <div className="mt-7 md:hidden">
+          <Link href="/profile" className="btn btn-ghost">
+            查看完整档案
+          </Link>
+        </div>
       </section>
 
-      {/* Voice Preview */}
-      <section className="py-20 md:py-28 relative overflow-hidden bg-gradient-to-r from-primary-pink/5 via-primary-blue/5 to-primary-purple/5">
-        <div className="max-w-6xl mx-auto px-6 md:px-12 text-center">
-          <FadeIn direction="up">
-            <h2 className="section-title mb-8">声库信息</h2>
-          </FadeIn>
-          <FadeIn direction="up" delay={0.1}>
-            <p className="text-text-light text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-              爱音芙歌拥有UTAU中文扩张整音声库与日文单独音声库，擅长音域F3~C5。
-              适合演唱流行、可爱风格的歌曲。
+      <section className="page-shell">
+        <div className="soft-panel grid gap-6 px-5 py-8 md:grid-cols-[1.2fr_0.8fr] md:items-center md:px-8 md:py-10">
+          <div>
+            <p className="section-kicker">♪ Voice</p>
+            <h2 className="section-heading">声库一览</h2>
+            <p className="mt-3 max-w-xl text-[1.02rem] leading-7 text-muted">
+              中文扩张整音 + 日文单独音，音域 F3–C5。免费下载，甜系流行直接上手。
             </p>
-          </FadeIn>
-          <FadeIn direction="up" delay={0.2}>
-            <a
-              href="/voice"
-              className="btn-primary inline-flex items-center gap-2 px-8 py-4 rounded-full text-base"
-            >
-              查看详细信息 <span className="text-lg">→</span>
-            </a>
-          </FadeIn>
+          </div>
+          <div className="flex md:justify-end">
+            <Link href="/voice" className="btn btn-solid">
+              查看声库详情
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* Gallery Preview */}
-      <section className="py-20 md:py-28 px-6 md:px-12 max-w-6xl mx-auto">
-        <FadeIn direction="up">
-          <h2 className="section-title mb-16">立绘展示</h2>
-        </FadeIn>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {["/日文.PNG", "/中文.PNG", "/Kei.PNG"].map((src, i) => (
-            <FadeIn key={src} direction="up" delay={i * 0.1}>
-              <div className="gallery-item">
-                <img
-                  src={src}
-                  alt={i === 0 ? "日文声库立绘" : i === 1 ? "中文声库立绘" : "KEI仿画风立绘"}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </FadeIn>
-          ))}
-        </div>
-        <FadeIn direction="up" delay={0.3}>
-          <div className="text-center mt-12">
-            <a
-              href="/gallery"
-              className="btn-secondary inline-flex items-center gap-2 px-8 py-4 rounded-full text-base"
-            >
-              查看全部立绘 <span className="text-lg">→</span>
-            </a>
+      <section className="page-shell py-12 md:py-16">
+        <div className="mb-7 flex items-end justify-between gap-4">
+          <div>
+            <p className="section-kicker">✦ Gallery</p>
+            <h2 className="section-heading">立绘</h2>
           </div>
-        </FadeIn>
+          <Link href="/gallery" className="hidden text-sm font-bold text-candy-deep md:inline">
+            全部立绘 →
+          </Link>
+        </div>
+        <GalleryGrid />
       </section>
     </>
   );
