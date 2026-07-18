@@ -1,8 +1,6 @@
-:HL["/_next/static/chunks/1-v6keddadrc2.css","style"]
-:HL["https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Noto+Serif+SC:wght@400;700&display=swap","style"]
-:HL["/萌娘.jpg","image"]
-:HL["/BiliBili.png","image"]
-:HL["/日文.PNG","image"]
+:HL["/_next/static/chunks/26z28pdqybund.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&family=Zen+Maru+Gothic:wght@500;700;900&display=swap","style"]
 :HL["/中文.PNG","image"]
+:HL["/日文.PNG","image"]
 :HL["/Kei.PNG","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"1U_jgcWX8_Ewykbeyo2S3"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"0vK-Lkb03L_0LZpXasiT9"}
