@@ -3,4 +3,4 @@
 :HL["/中文.webp","image"]
 :HL["/日文.webp","image"]
 :HL["/Kei.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"53oKoAlNp16MeyAv9pa9I"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"-h1Fl0cVg_j9z0Ep21r1r"}
