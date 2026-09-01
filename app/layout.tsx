@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "爱音芙歌 | 愛音フカ - UTAU虚拟歌姬",
     description: "用甜品般甜美的声音，为你唱响每一个音符。",
-    images: ["/中文.webp"],
+    images: ["/新中文立绘 (1).webp"],
   },
 };
 

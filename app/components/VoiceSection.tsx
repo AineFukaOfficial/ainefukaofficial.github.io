@@ -3,23 +3,26 @@ import Link from "next/link";
 const banks = [
   {
     title: "中文声库",
+    type: "CHNCV",
+    date: "2026.09.01",
+    chip: "sticker-pink",
+  },
+  {
+    title: "中文声库",
     type: "扩张整音",
     date: "2025.12.23",
-    note: "中文发音更完整，适合流行与可爱向作品。",
     chip: "sticker-pink",
   },
   {
     title: "日文声库",
     type: "单独音",
     date: "2026.03.21",
-    note: "单独音结构，适合日系编曲与调声实验。",
     chip: "sticker-blue",
   },
   {
     title: "袅袅声库",
     type: "Qiyiyin 制作",
     date: "袅袅虚拟歌手",
-    note: "适配袅袅引擎，补充跨软件使用场景。",
     chip: "sticker-lilac",
   },
 ];
@@ -49,7 +52,6 @@ export default function VoiceSection() {
                   {bank.type} · {bank.date}
                 </span>
               </div>
-              <p className="mt-2 text-sm leading-6 text-muted md:text-base">{bank.note}</p>
             </div>
             <div className="text-sm font-bold text-candy-deep md:text-right">音域 F3–C5</div>
           </article>

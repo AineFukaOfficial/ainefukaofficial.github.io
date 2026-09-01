@@ -32,7 +32,7 @@ export default function HomePage() {
             <p className="section-kicker">♪ Voice</p>
             <h2 className="section-heading">声库一览</h2>
             <p className="mt-3 max-w-xl text-[1.02rem] leading-7 text-muted">
-              中文扩张整音 + 日文单独音，音域 F3–C5。免费下载，甜系流行直接上手。
+              中文扩张整音 + 日文单独音，音域 F3–C5。
             </p>
           </div>
           <div className="flex md:justify-end">

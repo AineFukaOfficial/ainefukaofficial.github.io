@@ -1,15 +1,27 @@
 const galleryItems = [
   {
+    src: "/Image_1785771149230_602.webp",
+    alt: "立绘",
+    title: "立绘",
+    description: "2026.08.03",
+  },
+  {
+    src: "/新中文立绘 (1).webp",
+    alt: "中文声库立绘",
+    title: "中文声库",
+    description: "2026.07.20",
+  },
+  {
     src: "/日文.webp",
     alt: "日文声库立绘",
     title: "日文声库",
-    description: "2026.03.21 公开",
+    description: "2026.03.21",
   },
   {
     src: "/中文.webp",
     alt: "中文声库立绘",
     title: "中文声库",
-    description: "2025.12.23 首次配布",
+    description: "2025.12.23",
   },
   {
     src: "/Kei.webp",

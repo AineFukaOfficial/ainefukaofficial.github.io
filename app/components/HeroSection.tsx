@@ -19,7 +19,7 @@ export default function HeroSection() {
 
         <p className="mt-3 max-w-xl text-sm leading-6 text-muted md:mt-4 md:text-[1.02rem] md:leading-7">
           白发粉尾的双马尾歌姬，声音像刚出炉的甜品。
-          2025.12.23 于 Bilibili 首次配布，中文扩张整音 · 日文单独音 · 袅袅声库都在等你调。
+          2025.12.23 于 Bilibili 首次配布，中文扩张整音 · 日文单独音 · 袅袅声库都在等你调~
         </p>
 
         <dl className="mt-3 grid max-w-md grid-cols-2 gap-x-5 gap-y-2 text-sm md:mt-4">
@@ -53,8 +53,8 @@ export default function HeroSection() {
 
       <div className="order-1 flex min-h-0 min-w-0 items-center justify-center md:order-2 md:h-full">
         <img
-          src="/中文.webp"
-          alt="爱音芙歌中文立绘"
+          src="/新中文立绘 (1).webp"
+          alt="中文立绘"
           className="max-h-[36dvh] w-auto max-w-full object-contain md:max-h-[min(78dvh,680px)]"
         />
       </div>
