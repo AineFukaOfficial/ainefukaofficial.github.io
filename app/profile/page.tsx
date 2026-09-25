@@ -1,4 +1,11 @@
 import ProfileCards from "../components/ProfileCards";
+import { createPageMetadata } from "../seo";
+
+export const metadata = createPageMetadata(
+  "/profile",
+  "角色档案 | 爱音芙歌 AineFuka",
+  "了解爱音芙歌（愛音フカ / AineFuka）的角色设定：基本资料、白发粉尾的双马尾外貌、性格、喜好，以及 UTAU・袅袅声库的配布时间线。",
+);
 
 export default function ProfilePage() {
   return (

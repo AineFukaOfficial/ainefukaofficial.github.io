@@ -1,4 +1,11 @@
 import VoiceSection from "../components/VoiceSection";
+import { createPageMetadata } from "../seo";
+
+export const metadata = createPageMetadata(
+  "/voice",
+  "声库下载与使用说明 | 爱音芙歌 AineFuka",
+  "免费下载爱音芙歌的中文扩张整音、日文单独音与袅袅声库，查看音域 F3–C5、声库特点及使用说明，前往 BowlRoll 获取音源。",
+);
 
 export default function VoicePage() {
   return (

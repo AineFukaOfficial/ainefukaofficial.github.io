@@ -32,7 +32,7 @@ export default function VoiceSection() {
     <section className="page-shell pb-14 pt-20 md:pb-20 md:pt-24">
       <div className="max-w-2xl">
         <p className="section-kicker">♪ Voicebank</p>
-        <h2 className="section-heading">声库信息</h2>
+        <h1 className="section-heading">声库信息</h1>
         <p className="mt-3 text-[1.02rem] leading-7 text-muted">
           声库制作：Whien、重症。擅长音域 F3–C5，甜系流行随手可上。
           中文扩张整音、日文单独音，外加袅袅版本，按需下载就好。
@@ -47,7 +47,7 @@ export default function VoiceSection() {
           >
             <div>
               <div className="flex flex-wrap items-center gap-2">
-                <h3 className="font-display text-lg font-extrabold">{bank.title}</h3>
+                <h2 className="font-display text-lg font-extrabold">{bank.title}</h2>
                 <span className={`sticker ${bank.chip}`}>
                   {bank.type} · {bank.date}
                 </span>

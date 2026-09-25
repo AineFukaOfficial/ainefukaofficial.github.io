@@ -1,19 +1,15 @@
 import type { Metadata } from "next";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import { siteUrl } from "./seo";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ainefuka.com"),
+  metadataBase: new URL(siteUrl),
   title: "爱音芙歌 | 愛音フカ - UTAU虚拟歌姬",
   description:
     "爱音芙歌（AineFuka）- 于2025年12月23日首次配布于Bilibili的免费UTAU虚拟歌姬音源。拥有中文扩张整音与日文单独音声库。",
   keywords: ["爱音芙歌", "愛音フカ", "AineFuka", "UTAU", "虚拟歌姬", "歌声合成"],
-  openGraph: {
-    title: "爱音芙歌 | 愛音フカ - UTAU虚拟歌姬",
-    description: "用甜品般甜美的声音，为你唱响每一个音符。",
-    images: ["/新中文立绘 (1).webp"],
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
