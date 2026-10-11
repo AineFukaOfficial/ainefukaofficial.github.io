@@ -202,7 +202,7 @@ export default function HomeExperience() {
               <a href="https://space.bilibili.com/3690991053703575" target="_blank" rel="noreferrer">去 Bilibili 看看<span aria-hidden="true">↗</span></a>
               <a href="https://zh.moegirl.org.cn/爱音芙歌" target="_blank" rel="noreferrer">萌娘百科<span aria-hidden="true">↗</span></a>
             </div>
-            <p className={styles.credits} data-reveal>声库制作 / Whien、重症<br />袅袅声库 / Qiyiyin<br /><span>© 2025–2026 爱音芙歌 Project</span></p>
+            <p className={styles.credits} data-reveal>声库制作 / Whien、重症<br />袅袅声库 / Qiyiyin<br /><span>网站设计：Q78KG</span><br /><span>© 2025–2026 爱音芙歌 Project</span></p>
           </div>
           <span className={styles.outroMark} aria-hidden="true">af.</span>
         </section>
