@@ -15,6 +15,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <p>© 2025–2026 爱音芙歌 Project</p>
+          <p>网站设计：Q78KG</p>
           <p>声库制作：Whien、重症 <span>/</span> 袅袅声库：Qiyiyin</p>
         </div>
       </div>
