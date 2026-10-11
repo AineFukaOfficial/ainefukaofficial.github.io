@@ -9,13 +9,17 @@ export const metadata = createPageMetadata(
 
 export default function ProfilePage() {
   return (
-    <div className="page-shell pb-14 pt-20 md:pb-20 md:pt-24">
-      <p className="section-kicker">♡ Character</p>
-      <h1 className="section-heading">角色档案</h1>
-      <p className="mt-3 max-w-2xl text-[1.02rem] leading-7 text-muted">
-        基本资料、外貌、性格与配布时间线——先认识她，再开始调教。
-      </p>
-      <div className="mt-8">
+    <div className="page-shell profile-page">
+      <header className="page-intro">
+        <h1 className="page-title">关于芙歌</h1>
+        <p className="page-description">喜欢甜品和三彩丸子，不太擅长给自己梳头发<br />先认识一下，再开始调教~</p>
+      </header>
+      <div className="profile-page-layout">
+        <figure className="profile-portrait">
+          <span className="profile-portrait-name" aria-hidden="true" lang="ja">愛音フカ</span>
+          <img src="/Image_1785771149230_602.webp" alt="爱音芙歌的全身角色立绘" width="4600" height="6000" />
+          <figcaption>爱音芙歌 / AineFuka</figcaption>
+        </figure>
         <ProfileCards />
       </div>
     </div>

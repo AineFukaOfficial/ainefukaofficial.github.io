@@ -5,7 +5,6 @@ interface InfoItem {
 
 interface SheetBlock {
   title: string;
-  accent: string;
   items: InfoItem[];
 }
 
@@ -43,13 +42,10 @@ const history: InfoItem[] = [
   { label: "价格", value: "免费配布" },
 ];
 
-function Sheet({ title, accent, items }: SheetBlock) {
+function Sheet({ title, items }: SheetBlock) {
   return (
-    <section className="sheet p-5 md:p-6">
-      <div className="mb-2 flex items-center gap-2">
-        <span className={`inline-block h-2.5 w-2.5 rounded-full ${accent}`} />
-        <h3 className="font-display text-lg font-extrabold md:text-xl">{title}</h3>
-      </div>
+    <section className="profile-sheet">
+      <h3>{title}</h3>
       <dl>
         {items.map((item) => (
           <div key={item.label} className="meta-row">
@@ -62,27 +58,16 @@ function Sheet({ title, accent, items }: SheetBlock) {
   );
 }
 
-interface ProfileCardsProps {
-  compact?: boolean;
-}
-
-export default function ProfileCards({ compact = false }: ProfileCardsProps) {
-  const blocks: SheetBlock[] = compact
-    ? [
-        { title: "基本资料", accent: "bg-candy", items: basicInfo.slice(0, 5) },
-        { title: "外貌", accent: "bg-twin", items: appearance.slice(0, 3) },
-        { title: "性格", accent: "bg-lilac", items: personality.slice(0, 3) },
-        { title: "配布", accent: "bg-mint", items: history },
-      ]
-    : [
-        { title: "基本资料", accent: "bg-candy", items: basicInfo },
-        { title: "外貌特征", accent: "bg-twin", items: appearance },
-        { title: "性格喜好", accent: "bg-lilac", items: personality },
-        { title: "配布历史", accent: "bg-mint", items: history },
-      ];
+export default function ProfileCards() {
+  const blocks: SheetBlock[] = [
+    { title: "基本资料", items: basicInfo },
+    { title: "外貌特征", items: appearance },
+    { title: "性格喜好", items: personality },
+    { title: "配布历史", items: history },
+  ];
 
   return (
-    <div className="grid gap-4 md:grid-cols-2">
+    <div className="profile-sheets">
       {blocks.map((block) => (
         <Sheet key={block.title} {...block} />
       ))}

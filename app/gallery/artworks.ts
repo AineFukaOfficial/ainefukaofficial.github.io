@@ -1,0 +1,42 @@
+export const galleryItems = [
+  {
+    src: "/Image_1785771149230_602.webp",
+    alt: "立绘",
+    title: "立绘",
+    description: "2026.08.03",
+    width: 4600,
+    height: 6000,
+  },
+  {
+    src: "/新中文立绘 (1).webp",
+    alt: "中文声库立绘",
+    title: "中文声库",
+    description: "2026.07.20",
+    width: 4500,
+    height: 6000,
+  },
+  {
+    src: "/日文.webp",
+    alt: "日文声库立绘",
+    title: "日文声库",
+    description: "2026.03.21",
+    width: 1641,
+    height: 1599,
+  },
+  {
+    src: "/中文.webp",
+    alt: "中文声库立绘",
+    title: "中文声库",
+    description: "2025.12.23",
+    width: 1599,
+    height: 2136,
+  },
+  {
+    src: "/Kei.webp",
+    alt: "KEI仿画风立绘",
+    title: "KEI 仿画风",
+    description: "莱星 绘制",
+    width: 1080,
+    height: 1495,
+  },
+];

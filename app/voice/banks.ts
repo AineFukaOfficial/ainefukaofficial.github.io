@@ -1,0 +1,38 @@
+export const banks = [
+  {
+    title: "中文声库",
+    type: "CHNCV",
+    date: "2026.09.01",
+    author: "Whien、重症",
+    artwork: "/新中文立绘 (1).webp",
+    artworkAlt: "爱音芙歌中文声库立绘",
+    description: "中文 CHNCV 声库，免费配布",
+  },
+  {
+    title: "中文声库",
+    type: "扩张整音",
+    date: "2025.12.23",
+    author: "Whien、重症",
+    artwork: "/中文.webp",
+    artworkAlt: "爱音芙歌初版中文声库立绘",
+    description: "扩张整音录制，侧重中文咬字的完整与自然",
+  },
+  {
+    title: "日文声库",
+    type: "单独音",
+    date: "2026.03.21",
+    author: "Whien、重症",
+    artwork: "/日文.webp",
+    artworkAlt: "爱音芙歌日文声库立绘",
+    description: "日文单独音，便于音节切分与调声",
+  },
+  {
+    title: "袅袅声库",
+    type: "Qiyiyin 制作",
+    date: null,
+    author: "Qiyiyin",
+    artwork: "/新中文立绘 (1).webp",
+    artworkAlt: "爱音芙歌立绘",
+    description: "由 Qiyiyin 制作，适配袅袅虚拟歌手软件",
+  },
+];

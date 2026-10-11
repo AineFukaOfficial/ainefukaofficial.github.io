@@ -18,14 +18,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta name="msvalidate.01" content="7CC6B68853F5B1DCE781903F47941AEF" />
         <meta name="google-site-verification" content="UtVNLnYkEUV3XbwenG_8S-ctRXTS4I78xUa36Ke9LxM" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&family=Zen+Maru+Gothic:wght@500;700;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
       </head>
       <body>
+        <a href="#main-content" className="skip-link">跳转到正文</a>
         <Nav />
-        <main className="relative min-h-screen">{children}</main>
+        <main id="main-content" tabIndex={-1}>{children}</main>
         <Footer />
       </body>
     </html>

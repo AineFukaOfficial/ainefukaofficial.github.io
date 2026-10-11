@@ -1,75 +1,69 @@
-import Link from "next/link";
+import styles from "../voice/voice.module.css";
 
-const banks = [
-  {
-    title: "中文声库",
-    type: "CHNCV",
-    date: "2026.09.01",
-    chip: "sticker-pink",
-  },
-  {
-    title: "中文声库",
-    type: "扩张整音",
-    date: "2025.12.23",
-    chip: "sticker-pink",
-  },
-  {
-    title: "日文声库",
-    type: "单独音",
-    date: "2026.03.21",
-    chip: "sticker-blue",
-  },
-  {
-    title: "袅袅声库",
-    type: "Qiyiyin 制作",
-    date: "袅袅虚拟歌手",
-    chip: "sticker-lilac",
-  },
-];
+import { banks } from "../voice/banks";
 
 export default function VoiceSection() {
   return (
-    <section className="page-shell pb-14 pt-20 md:pb-20 md:pt-24">
-      <div className="max-w-2xl">
-        <p className="section-kicker">♪ Voicebank</p>
-        <h1 className="section-heading">声库信息</h1>
-        <p className="mt-3 text-[1.02rem] leading-7 text-muted">
-          声库制作：Whien、重症。擅长音域 F3–C5，甜系流行随手可上。
-          中文扩张整音、日文单独音，外加袅袅版本，按需下载就好。
-        </p>
-      </div>
-
-      <div className="mt-8 grid gap-3">
-        {banks.map((bank) => (
-          <article
-            key={bank.title}
-            className="sheet grid gap-3 p-4 transition-transform duration-200 hover:-translate-y-0.5 md:grid-cols-[1fr_auto] md:items-center md:p-5"
-          >
+    <section className="page-shell" aria-labelledby="voice-title">
+      <div className={`page-intro ${styles.intro}`}>
+        <div className={styles.introCopy}>
+          <h1 id="voice-title" className="page-title">声库下载</h1>
+          <p className={`page-description ${styles.description}`}>
+            中文 CHNCV、扩张整音、日文单独音与袅袅版本<br />
+            擅长音域 F3–C5，按需下载就好
+          </p>
+          <dl className={styles.specs}>
             <div>
-              <div className="flex flex-wrap items-center gap-2">
-                <h2 className="font-display text-lg font-extrabold">{bank.title}</h2>
-                <span className={`sticker ${bank.chip}`}>
-                  {bank.type} · {bank.date}
-                </span>
-              </div>
+              <dt>擅长音域</dt>
+              <dd className={styles.range}>F3–C5</dd>
             </div>
-            <div className="text-sm font-bold text-candy-deep md:text-right">音域 F3–C5</div>
-          </article>
-        ))}
+            <div>
+              <dt>声库制作</dt>
+              <dd>Whien、重症</dd>
+            </div>
+          </dl>
+          <a
+            href="https://bowlroll.net/file/346505"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`btn btn-solid ${styles.download}`}
+          >
+            BowlRoll 下载
+            <span className={styles.srOnly}>（在新窗口打开）</span>
+          </a>
+        </div>
+        <div className={styles.artwork}>
+          <img
+            src="/新中文立绘 (1).webp"
+            alt="爱音芙歌中文声库立绘"
+            width={4500}
+            height={6000}
+            className={styles.portrait}
+          />
+        </div>
       </div>
 
-      <div className="mt-8 flex flex-wrap gap-3">
-        <a
-          href="https://bowlroll.net/file/346505"
-          target="_blank"
-          rel="noreferrer"
-          className="btn btn-solid"
-        >
-          BowlRoll 下载
-        </a>
-        <Link href="/voice" className="btn btn-ghost">
-          查看详情
-        </Link>
+      <div className={styles.catalog}>
+        <div className={styles.catalogHeading}>
+          <h2 className="section-heading">声库一览</h2>
+          <p>声库类型与配布时间</p>
+        </div>
+        <ul className={styles.bankList}>
+          {banks.map((bank) => (
+            <li key={`${bank.title}-${bank.type}`} className={styles.bank}>
+              <h3>{bank.title}</h3>
+              <p className={styles.bankType}>{bank.type}</p>
+              {bank.date ? (
+                <time dateTime={bank.date.replaceAll(".", "-")} className={styles.bankDate}>
+                  <span className={styles.srOnly}>发布日期：</span>
+                  {bank.date}
+                </time>
+              ) : (
+                <p className={styles.bankDate}>袅袅虚拟歌手</p>
+              )}
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
