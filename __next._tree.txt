@@ -2,4 +2,4 @@
 :HL["/_next/static/chunks/1cm3z1oi_2_xg.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap","style"]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"WQ9jgH31biDS0DHFglfqW","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"A31Y6SoYBVhDV6elb9pKg","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
