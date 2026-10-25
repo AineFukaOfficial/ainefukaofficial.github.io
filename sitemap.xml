@@ -1,15 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
 <loc>https://ainefukaofficial.github.io/</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/" />
+</url>
+<url>
+<loc>https://ainefukaofficial.github.io/en</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/" />
+</url>
+<url>
+<loc>https://ainefukaofficial.github.io/ja</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/" />
 </url>
 <url>
 <loc>https://ainefukaofficial.github.io/profile</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/profile" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en/profile" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja/profile" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/profile" />
+</url>
+<url>
+<loc>https://ainefukaofficial.github.io/en/profile</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/profile" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en/profile" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja/profile" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/profile" />
+</url>
+<url>
+<loc>https://ainefukaofficial.github.io/ja/profile</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/profile" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en/profile" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja/profile" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/profile" />
 </url>
 <url>
 <loc>https://ainefukaofficial.github.io/voice</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/voice" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en/voice" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja/voice" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/voice" />
+</url>
+<url>
+<loc>https://ainefukaofficial.github.io/en/voice</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/voice" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en/voice" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja/voice" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/voice" />
+</url>
+<url>
+<loc>https://ainefukaofficial.github.io/ja/voice</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/voice" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en/voice" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja/voice" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/voice" />
 </url>
 <url>
 <loc>https://ainefukaofficial.github.io/gallery</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/gallery" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en/gallery" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja/gallery" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/gallery" />
+</url>
+<url>
+<loc>https://ainefukaofficial.github.io/en/gallery</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/gallery" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en/gallery" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja/gallery" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/gallery" />
+</url>
+<url>
+<loc>https://ainefukaofficial.github.io/ja/gallery</loc>
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://ainefukaofficial.github.io/gallery" />
+<xhtml:link rel="alternate" hreflang="en" href="https://ainefukaofficial.github.io/en/gallery" />
+<xhtml:link rel="alternate" hreflang="ja" href="https://ainefukaofficial.github.io/ja/gallery" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ainefukaofficial.github.io/gallery" />
 </url>
 </urlset>
