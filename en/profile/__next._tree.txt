@@ -1,7 +1,7 @@
-:HL["/_next/static/chunks/3ue62qi_vsg2g.css","style"]
+:HL["/_next/static/chunks/08xduwadxpuww.css","style"]
 :HL["/Image_1785771149230_602.webp","image"]
 4:[["children",{"s":"__PAGE__","h":160}]]
 3:[["children",{"s":"profile","h":96,"c":"$Q4"}]]
 2:[["children",{"s":{"n":"lang","t":"d","k":"en","s":["components","gallery","profile","voice"]},"h":65648,"c":"$Q3"}]]
 1:[["children",{"s":"(localized)","h":131184,"c":"$Q2"}]]
-0:{"b":"B05ToyBT4PQ0lOyCSMFFN","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"5Rvd_vtkWvLUYNLzoJEux","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
