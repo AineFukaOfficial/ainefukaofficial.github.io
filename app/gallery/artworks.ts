@@ -13,9 +13,9 @@ type ArtworkText = Pick<GalleryItem, "alt" | "title" | "description">;
 
 const artworks: Omit<GalleryItem, keyof ArtworkText>[] = [
   { src: "/Image_1785771149230_602.webp", width: 4600, height: 6000 },
-  { src: "/新中文立绘 (1).webp", width: 4500, height: 6000 },
-  { src: "/日文.webp", width: 1641, height: 1599 },
-  { src: "/中文.webp", width: 1599, height: 2136 },
+  { src: encodeURI("/新中文立绘 (1).webp"), width: 4500, height: 6000 },
+  { src: encodeURI("/日文.webp"), width: 1641, height: 1599 },
+  { src: encodeURI("/中文.webp"), width: 1599, height: 2136 },
   { src: "/Kei.webp", width: 1080, height: 1495 },
 ];
 

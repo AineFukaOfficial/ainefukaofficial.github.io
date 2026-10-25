@@ -112,7 +112,8 @@ export default function HomeExperience({ locale }: { locale: Locale }) {
     <div className={styles.experience} data-home-deck data-active={active}>
       <div className={styles.backdrop} aria-hidden="true" /><div className={styles.colorPanel} aria-hidden="true" /><div className={styles.grid} aria-hidden="true" />
       <div className={styles.orbit} aria-hidden="true"><span /><span /><span /></div>
-      <div className={styles.character} aria-hidden="true"><img src="/新中文立绘 (1).webp" alt="" width="4500" height="6000" fetchPriority="high" /></div>
+      {/* React also emits this URL in HTTP Link headers, which need URI-encoded filenames. */}
+      <div className={styles.character} aria-hidden="true"><img src={encodeURI("/新中文立绘 (1).webp")} alt="" width="4500" height="6000" fetchPriority="high" /></div>
       <header className={styles.header}>
         <button className={styles.wordmark} onClick={() => selectScene(0)} aria-label={h.backToStart}>af<span>.</span></button>
         <span className={styles.identity} lang="ja">愛音フカ<span>AineFuka</span></span>

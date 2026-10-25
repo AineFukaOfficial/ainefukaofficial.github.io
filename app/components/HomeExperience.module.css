@@ -53,9 +53,7 @@
 .topNav button::after { content: ""; position: absolute; left: 0; right: 0; bottom: 4px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: left; transition: transform 300ms var(--motion); }
 .topNav button:hover::after, .topNav button[aria-current]::after { transform: scaleX(1); }
 .topNav button[aria-current] { color: var(--scene-ink); }
-.homeLanguage { margin-left: 0; margin-right: 18px; }
-.homeLanguage a { color: var(--scene-soft); }
-.homeLanguage a:hover, .homeLanguage a[aria-current] { color: var(--scene-ink); }
+.homeLanguage { margin-left: 0; margin-right: 18px; color: var(--scene-ink); }
 .menuButton { width: 48px; height: 48px; display: flex; flex-direction: column; justify-content: center; gap: 7px; align-items: center; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 50%; transition: background 200ms, transform 300ms; }
 .menuButton span { display: block; width: 18px; height: 1px; background: currentColor; transition: width 250ms; }
 .menuButton span:last-child { width: 12px; align-self: flex-start; margin-left: 14px; }

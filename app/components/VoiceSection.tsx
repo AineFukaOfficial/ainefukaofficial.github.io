@@ -20,7 +20,7 @@ export default function VoiceSection({ locale }: { locale: Locale }) {
           </a>
         </div>
         <div className={styles.artwork}>
-          <img src="/新中文立绘 (1).webp" alt={t.voice.artworkAlt} width={4500} height={6000} className={styles.portrait} />
+          <img src={encodeURI("/新中文立绘 (1).webp")} alt={t.voice.artworkAlt} width={4500} height={6000} className={styles.portrait} />
         </div>
       </div>
       <div className={styles.catalog}>

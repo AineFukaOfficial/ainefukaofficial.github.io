@@ -15,10 +15,10 @@ interface Voicebank {
 type BankText = Pick<Voicebank, "title" | "shortTitle" | "type" | "artworkAlt" | "description">;
 
 const bankDetails: Omit<Voicebank, keyof BankText>[] = [
-  { id: "chncv", date: "2026.09.01", author: "Whien、重症", artwork: "/新中文立绘 (1).webp" },
-  { id: "expansion", date: "2025.12.23", author: "Whien、重症", artwork: "/中文.webp" },
-  { id: "cv", date: "2026.03.21", author: "Whien、重症", artwork: "/日文.webp" },
-  { id: "niaoniao", date: null, author: "Qiyiyin", artwork: "/新中文立绘 (1).webp" },
+  { id: "chncv", date: "2026.09.01", author: "Whien、重症", artwork: encodeURI("/新中文立绘 (1).webp") },
+  { id: "expansion", date: "2025.12.23", author: "Whien、重症", artwork: encodeURI("/中文.webp") },
+  { id: "cv", date: "2026.03.21", author: "Whien、重症", artwork: encodeURI("/日文.webp") },
+  { id: "niaoniao", date: null, author: "Qiyiyin", artwork: encodeURI("/新中文立绘 (1).webp") },
 ];
 
 const translations: Record<Locale, [BankText, BankText, BankText, BankText]> = {
